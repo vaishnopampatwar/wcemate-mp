@@ -1,0 +1,178 @@
+.home {
+    display: flex;
+    justify-content: space-around;
+  }
+  .home-img {
+    float: right;
+    width: 40%;
+    height: 620px;
+    margin-left: 5%;
+  }
+  .desc {
+    float: left;
+    margin: 9%;
+    width: 40%;
+    margin-top: 5%;
+    font-size: 20px;
+    color: #452c5f;
+    font-weight: 600;
+    text-align: center;
+  }
+  .a {
+    list-style: none;
+    padding: 0;
+  }
+  .b {
+    margin-top: 10px;
+    color: #452c5f;
+  }
+  .hp>.name {
+    text-align: center;
+    font-size: 60px;
+    /* font-family: "Fira Sans", sans-serif; */
+    color: #455a64;
+    margin-top: 20px;
+  }
+  .quote {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    /* font-family: "Roboto", sans-serif; */
+    font-style: italic;
+    color: #040404;
+    font-weight: bold;
+  }
+  .dec {
+    font-style: italic;
+    font-weight: 600;
+    color: #452c5f;
+  }
+  .dec:hover {
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #1a1717;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+  }
+  
+  @media only screen and (max-width: 1060px) {
+    .name {
+      font-size: 50px;
+    }
+    .quote {
+      font-size: 27px;
+    }
+    .desc {
+      font-size: 18px;
+    }
+  }
+  @media only screen and (max-width: 960px) {
+    .name {
+      font-size: 46px;
+    }
+    .quote {
+      font-size: 26px;
+    }
+    .desc {
+      font-size: 18px;
+      float: none;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 0;
+    }
+    .home {
+      display: block;
+      margin-top: 0;
+    }
+    .home-img {
+      float: none;
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 0;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .name {
+      font-size: 46px;
+    }
+    .quote {
+      font-size: 24px;
+    }
+    .desc {
+      font-size: 18px;
+      float: none;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .home {
+      display: block;
+    }
+    .home-img {
+      float: none;
+      width: 60%;
+      margin-left: 20%;
+    }
+  }
+  @media only screen and (max-width: 580px) {
+    .name {
+      font-size: 46px;
+    }
+    .quote {
+      font-size: 24px;
+    }
+    .desc {
+      font-size: 18px;
+      float: none;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .home {
+      display: block;
+      margin-top: 0px;
+    }
+    .home-img {
+      position: relative;
+      top: -10px;
+      float: none;
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .name {
+      font-size: 46px;
+    }
+    .quote {
+      font-size: 24px;
+    }
+    .desc {
+      font-size: 18px;
+      float: none;
+      width: 80%;
+      margin-left: 10%;
+    }
+    .home {
+      display: block;
+      margin-top: 0px;
+    }
+    .home-img {
+      position: relative;
+      top: -10px;
+      float: none;
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+  .teamName:hover {
+    font-style: italic;
+  }
+
+  .homeimg{
+    /* src: url(../images/wce.jpg); */
+    width:30%;
+    margin-left: 37%;
+    margin-top: 5%;
+  }
