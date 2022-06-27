@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/wcemate-mp/static/css/main.5d03b573.css",
+    "main.js": "/wcemate-mp/static/js/main.ad23ebc3.js",
+    "static/media/wce.jpg": "/wcemate-mp/static/media/wce.ea12d5597ece7999f62e.jpg",
+    "index.html": "/wcemate-mp/index.html",
+    "main.5d03b573.css.map": "/wcemate-mp/static/css/main.5d03b573.css.map",
+    "main.ad23ebc3.js.map": "/wcemate-mp/static/js/main.ad23ebc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d03b573.css",
+    "static/js/main.ad23ebc3.js"
+  ]
+}
